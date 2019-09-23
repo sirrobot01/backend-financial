@@ -15,4 +15,5 @@ if python is not installed, run this command
 
 if installed, run this command to start the server
 
+>python3 manage.py migrate
 >python3 manage.py runserver
