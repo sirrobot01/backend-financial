@@ -3,9 +3,10 @@
 Pull the repo
 
 Install Python from https://www.python.org/downloads/
-Confirm if **pip** is installed, if yes, run this following code
+Confirm if **pip3** is installed, if yes, run this following code
 
->pip install -r requirements.txt
+>pip3 install -r requirements.txt
+
 
 if installed, run this command to start the server
 
