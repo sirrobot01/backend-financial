@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'rest_auth.registration',
+    'corsheaders',
 ]
 
 REST_FRAMEWORK = {
@@ -57,7 +58,11 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 MIDDLEWARE = [
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
+=======
+    'corsheaders.middleware.CorsMiddleware',
+>>>>>>> b6a4051b6087e31355a35712bb710c9fccf610b7
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -66,6 +71,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'backend.urls'
 
