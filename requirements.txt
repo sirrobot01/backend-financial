@@ -7,6 +7,7 @@ packaging
 djangorestframework-jwt
 dj_database_url
 psycopg2-binary
+gunicorn
 pytz
 whitenoise==3.3.1
 djangorestframework-jwt
