@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # TeamTritonFinancialTrackerAPI
-=======
 ### backend-financial
 
 Pull the repo
@@ -20,4 +18,3 @@ if installed, run this command to start the server
 
 >python3 manage.py migrate
 >python3 manage.py runserver
->>>>>>> 2a5310f6e71d6d63d9befa3c91e09aaec911fd7a
