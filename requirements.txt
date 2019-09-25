@@ -8,6 +8,9 @@ djangorestframework-jwt
 dj_database_url
 psycopg2-binary
 gunicorn
+djangorestframework-jwt
+dj_database_url
+psycopg2-binary
 pytz
 whitenoise==3.3.1
 djangorestframework-jwt
@@ -15,4 +18,5 @@ django-oauth-toolkit
 django-cors-middleware
 pyjwt
 drf-yasg
+django-rest-swagger
 django-rest-swagger
