@@ -25,8 +25,9 @@ SECRET_KEY = '&j+7c8dxtomq9mgxuv9b%rxn0%wnfr=bw0jqpxp99d4e+oq*7s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['team-trion.herokuapp.com']
 SITE_ID = 1
+ALLOWED_HOSTS = ['127.0.0.1', 'tweetpi.herokuapp.com']
+
 
 # Application definition
 
@@ -42,6 +43,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_auth',
     'rest_framework.authtoken',
+    'rest_framework.authtoken',
+    'rest_auth',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -61,6 +64,8 @@ REST_AUTH_REGISTER_SERIALIZERS = {
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 CORS_ORIGIN_ALLOW_ALL = True
 
+
+
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -72,6 +77,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'backend.urls'
 
