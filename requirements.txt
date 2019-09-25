@@ -3,6 +3,7 @@ djangorestframework
 django-allauth
 coreapi
 django-rest-auth
+packaging
 djangorestframework-jwt
 dj_database_url
 psycopg2-binary
